@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Grouping Tags</title>
+      <style>
+         body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(129, 126, 126, 0.89);
+            margin: 0px;
+         }
+
+         header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+         }
+
+         header > h1 {
+            text-shadow: 1px 1px 3px rgb(105, 105, 105);
+         }
+
+         nav {
+            background-color: rgb(94, 94, 94);
+            border-radius: 3px;
+            padding: 5px;
+            box-shadow: 3px 2px 6px 0px rgb(0 0 0 / 50%);
+         }
+
+         nav > a {
+            text-decoration: none;
+            padding-right: 40px;
+            color: white;
+         }
+
+         nav > a:hover {
+            text-decoration: underline;
+         }
+
+         main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.493);
+         }
+
+         #assuntos > p > a {
+            text-decoration: none;
+            font-weight: bold;
+            color: black;
+            margin-left: 20px;
+         }
+
+         #assuntos > p > a:hover {
+            text-decoration: underline;
+         }
+
+         article {
+            background-color: lightgray;
+            padding: 5px;
+            margin: 10px 2px;
+         }
+
+         article > h2 {
+            text-align: center;
+         }
+
+         article > p {
+            text-align: justify;
+         }
+
+         article > aside {
+            background-color: gray;
+            padding: 7px;
+            border-radius: 4px;
+            margin-bottom: 5px;
+         }
+
+         aside > p {
+            text-align: left;
+            margin: 0px;
+         }
+
+         aside > p > a {
+            text-decoration: none;
+            font-weight: bold;
+            color: black;
+         }
+
+         aside > p > a:hover {
+            text-decoration: underline;
+         }
+
+         footer {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            text-align: center;
+         }
+
+         footer > p {
+            margin: 0px;
+         }
+
+         footer > p > a {
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+         }
+
+         footer > p > a:hover {
+            text-decoration: underline;
+         }
+      </style>
+   </head>
+
+   <body>
+      <header>
+         <h1>Meu Site</h1>
+         <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+         </nav>
+      </header>
+      <main>
+         <section id="assuntos">
+            <p>
+               <a href="#">Esportes</a>
+               <a href="#">Política</a>
+               <a href="#">Tecnologia</a>
+            </p>
+         </section>
+         <article>
+            <h2>Notícia sobre o Brasil</h2>
+            <p>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
+               ipsa? Voluptatem id minima quia eligendi aperiam repellat vitae
+               eos at, vel, dolores vero atque nulla laborum? Veniam dolor nisi
+               in!
+            </p>
+            <p>
+               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
+               deleniti placeat excepturi sequi quo voluptates, maiores mollitia
+               quas quaerat dolorum consequuntur aperiam accusantium, maxime
+               iusto magnam minus nihil sit perferendis. Lorem ipsum dolor sit
+               amet consectetur adipisicing elit. Voluptate beatae accusantium
+               dicta dolores reiciendis eaque praesentium maiores earum
+               molestiae dignissimos maxime repellendus, aut aspernatur, ex
+               necessitatibus doloremque corporis quisquam doloribus?
+            </p>
+            <p>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+               optio sint iure vero quam nam sequi rerum. Laborum provident
+               accusantium cumque vitae doloremque, cum iure ipsa maiores
+               consectetur nostrum optio!
+            </p>
+            <aside>
+               <p>
+                  Artigo escrito por
+                  <a href="#">José da Silva</a>
+               </p>
+            </aside>
+         </article>
+         <article>
+            <h2>Notícia sobre futebol</h2>
+            <p>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+               ipsum rerum, quidem, unde necessitatibus provident aspernatur
+               repellat quo amet sunt ea corporis eligendi? Odio ipsa fugiat
+               nulla voluptatem voluptatibus quos?
+            </p>
+            <p>
+               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse
+               quae nesciunt doloribus dicta vitae totam incidunt ducimus quasi,
+               modi, magnam, nihil laboriosam quidem nostrum cumque nisi dolore
+               id. Et, hic! Lorem ipsum dolor sit amet consectetur adipisicing
+               elit. Doloremque nulla ex ducimus minima rerum. Natus voluptate
+               hic at eveniet labore consectetur iure iste nisi odit! Tempore
+               corrupti ea at voluptate?
+            </p>
+            <p>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
+               placeat alias voluptates inventore veritatis nostrum sit in sunt
+               soluta tenetur est quae blanditiis. Beatae, cupiditate? Modi
+               quibusdam dolorem quia recusandae!
+            </p>
+            <aside>
+               <p>
+                  Artigo escrito por
+                  <a href="#">Afonso Arinos</a>
+               </p>
+            </aside>
+         </article>
+      </main>
+      <footer>
+         <p>
+            Desenvolvido por
+            <a
+               href="https://www.youtube.com/channel/UCa1G9J4VD2D3oW0j3_xxNdw"
+               target="_blank">
+               Daniel Carling
+            </a>
+         </p>
+      </footer>
+   </body>
+</html>
