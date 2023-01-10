@@ -9,5 +9,5 @@
 <a href="https://danielcarling.github.io/html-css/desafios/desafio007/index" target="_blanck">Desafio 07</a><br>
 <a href="https://danielcarling.github.io/html-css/desafios/desafio008/index" target="_blanck">Desafio 08</a><br>
 <a href="https://danielcarling.github.io/html-css/desafios/desafio009/index" target="_blanck">Desafio 09</a><br>
-<a href="https://danielcarling.github.io/html-css/desafios/desafio010/index" target="_blanck">Desafio 10</a><br>
+<a href="https://danielcarling.github.io/html-css/desafios/desafio010/android" target="_blanck">Desafio 10</a><br>
 <a href=""></a>
