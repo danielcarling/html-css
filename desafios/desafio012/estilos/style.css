@@ -48,13 +48,13 @@ header a:hover, footer a:hover {
 section {
    padding-top: 10vh;
    padding-bottom: 10vh;
+   padding-left: 30px;
 }
 
 section p {
    font-size: 3.5vw;
    font-family: Sriracha;
    line-height: 2em;
-   padding-left: 30px;
 }
 
 section.normal {
@@ -80,9 +80,10 @@ section#folha {
 }
 
 section.imagem p {
+   padding: 2px;
    line-height: 7vw;
-   background-color: rgba(0, 0, 0, 0.377);
-   width: 40vw;
+   background-color: rgba(0, 0, 0, 0.5);
+   width: 41vw;
 }
 
 footer {
